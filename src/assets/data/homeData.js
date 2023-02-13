@@ -10,7 +10,7 @@ const home = [
         text: 'Sportovní klub zaměřený na smíšená bojová umění (MMA) založený v roce 2012. Nabízíme přípravu nejen profesionálním závodníkům, ale i tréninky pro začátečníky MMA, kruhové tréninky, Brazilské Jiu Jitsu, thai box, sambo nebo grappling. V tělocvičně si můžete dojít zacvičit i mimo tréninky, využit činkárnu nebo kardio zónu.',
       },
       {
-        text: 'Máme tréninky, jak pro nováčky nepolíbené jakýmkoliv bojovým sportem, tak i začátečníky a profesionální závodníky. Na první trénink potřebujete pouze sportovní oděv (tričko a trenky). Více informací najdete v sekci Trénink a Kontakt',
+        text: 'Máme tréninky, jak pro nováčky nepolíbené jakýmkoliv bojovým sportem, tak i začátečníky a profesionální závodníky. Na první trénink potřebujete pouze sportovní oděv (tričko a trenky). Více informací najdete v sekci',
       },
     ],
     paragraphs2: [

@@ -40,7 +40,8 @@ main .homepage .box-container {
   margin-top: 1.5rem;
   display: grid;
   justify-items: stretch;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  justify-content: center;
+  grid-template-columns: 90vw;
   column-gap: var(--gap);
   row-gap: var(--gap);
 }
@@ -55,18 +56,21 @@ main .homepage .box-container .box-item {
 
 main .homepage .box-container .box-item:hover,
 main .homepage .box-container .box-item:focus {
-  transform: scale(1.07);
-}
-
-main .homepage .box-container .box-item h1 {
+  transform: scale(1.02);
 }
 
 main .homepage .box-container .box-item p {
-  padding: 0 1.25rem;
+  padding: 0 0.625rem;
 }
 
-@media screen and (min-width: 800px) {
-  .homepage {
+.hide-link {
+  display: none;
+}
+
+/* Media queries */
+
+@media screen and (min-width: 768px) {
+  main .homepage {
     padding: 20px;
   }
 
@@ -75,14 +79,11 @@ main .homepage .box-container .box-item p {
   }
 
   main .homepage .box-container {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
 
-  main .homepage .box-container .box-item {
-  }
-
-  main .homepage .box-container .box-item h1 {
-  }
-
-  main .homepage .box-container .box-item p {
+  main .homepage .box-container .box-item:hover,
+  a main .homepage .box-container .box-item:focus {
+    transform: scale(1.07);
   }
 }

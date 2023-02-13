@@ -88,6 +88,10 @@ p {
   margin-bottom: 30px;
 }
 
+.text-link {
+  color: var(--clr-secondary-5);
+}
+
 @media screen and (min-width: 800px) {
   h1 {
     font-size: 3rem;

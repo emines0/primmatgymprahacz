@@ -22,7 +22,19 @@ const Homepage = () => {
               const { text } = paragraph1
               return (
                 <div key={index}>
-                  <p>{text}</p>
+                  <p>
+                    {text}
+                    <span className={`${index === 0 ? 'hide-link' : null}`}>
+                      <a href='/contact' className='text-link'>
+                        {' '}
+                        Kontakt
+                      </a>{' '}
+                      a{' '}
+                      <a href='/training' className='text-link'>
+                        Trénink
+                      </a>
+                    </span>
+                  </p>
                 </div>
               )
             })}
