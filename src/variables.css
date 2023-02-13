@@ -42,6 +42,8 @@ Variables
   --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   --max-width: 1170px;
   --fixed-width: 620px;
-  --gap: 2rem;
+  --gap-1: 1rem;
+  --gap-2: 2rem;
+  --gap-3: 3rem;
   --box-shadow: 16px 19px 22px -14px rgba(34, 34, 2, 0.42);
 }
