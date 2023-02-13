@@ -53,6 +53,7 @@ p {
   margin-bottom: 1.5rem;
   color: var(--clr-grey-5);
   word-wrap: break-word;
+  font-size: 1.125rem;
 }
 
 .container {

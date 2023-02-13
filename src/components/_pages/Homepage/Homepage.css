@@ -14,6 +14,7 @@ main .homepage h1 {
 }
 
 main .homepage .page-heading {
+  margin: 1.125rem 0 2.375rem 0;
   text-align: center;
 }
 
@@ -79,7 +80,7 @@ main .homepage .box-container .box-item p {
   }
 
   main .homepage .box-container {
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(15.625rem, 1fr));
     column-gap: var(--gap-3);
     row-gap: var(--gap-3);
   }

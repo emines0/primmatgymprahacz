@@ -35,7 +35,7 @@ const home = [
         text: 'se vyznačuje bezúderovou technikou. Jeho hlavní dominantou je přenesení boje na zem a použití nejrůznějších pák a škrcení.',
       },
       {
-        title: 'workouts',
+        title: 'Kruhové tréninky',
         text: 'zakládáme na komplexním posílení celého těla. Zajímavé cviky s prvky bojových umění.',
       },
     ],
