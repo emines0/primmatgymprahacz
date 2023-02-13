@@ -1,0 +1,45 @@
+/*
+=============== 
+Variables
+===============
+*/
+
+:root {
+  /* lighter shades of primary color*/
+  --clr-primary-1: whitesmoke;
+  --clr-primary-1: #cccccc;
+  --clr-primary-3: #b3b3b3;
+  --clr-primary-4: #999999;
+  /* primary/main color */
+  --clr-primary-5: #ffffff;
+  /* darkest shades of primary color */
+  --clr-primary-6: #808080;
+  --clr-primary-7: #666666;
+  --clr-primary-8: #4d4d4d;
+  --clr-primary-9: #4d4d4d;
+  --clr-primary-10: #333333;
+  /* darkest grey - used for headings */
+  --clr-secondary-1: #e65f1d;
+  --clr-secondary-2: #cc541a;
+  --clr-secondary-3: #b34a16;
+  --clr-secondary-4: #993f13;
+  /* secondary used for borders etc */
+  --clr-secondary-5: #ff6920;
+  --clr-secondary-6: #ff7836;
+  --clr-secondary-7: #ff874d;
+  --clr-secondary-8: #ff9663;
+  --clr-secondary-9: #ffa579;
+  --clr-secondary-10: #ffb490;
+  --clr-red-dark: hsl(360, 67%, 44%);
+  --clr-red-light: hsl(360, 71%, 66%);
+  --clr-green-dark: hsl(125, 67%, 44%);
+  --clr-green-light: hsl(125, 71%, 66%);
+  --clr-black: #222;
+  --transition: all 0.3s linear;
+  --spacing: 0.1rem; /*1.6px*/
+  --radius: 0.25rem; /*4px*/
+  --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  --max-width: 1170px;
+  --fixed-width: 620px;
+}

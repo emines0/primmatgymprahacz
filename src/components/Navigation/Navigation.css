@@ -1,0 +1,62 @@
+@import '../../variables.css';
+
+.bars-container {
+  width: 100vw;
+  height: 6rem;
+  background: var(--clr-black);
+  display: flex;
+  justify-content: right;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.bars-logo img {
+  width: 130px;
+  position: fixed;
+  top: 0.1em;
+  right: 3rem;
+}
+.sidebar-toggle {
+  position: fixed;
+  top: 2rem;
+  left: 3rem;
+  font-size: 2rem;
+  background: transparent;
+  border-color: transparent;
+  color: var(--clr-secondary-5);
+  transition: var(--transition);
+  cursor: pointer;
+  animation: bounce 2s ease-in-out infinite;
+}
+
+@keyframes bounce {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.show-bars {
+  animation: showElement 1.5s ease-in;
+}
+
+@keyframes showElement {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.hide-bars {
+  display: none;
+}

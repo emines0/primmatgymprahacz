@@ -1,0 +1,79 @@
+@import '../../../variables.css';
+main {
+  margin-top: 6rem;
+  min-width: 100vw;
+}
+
+.homepage {
+  padding: 15px;
+}
+
+main .homepage h1 {
+  margin-bottom: 1.125rem;
+  text-align: center;
+}
+
+main .homepage .page-heading {
+  text-align: center;
+}
+
+main .homepage p {
+  text-align: justify;
+}
+
+main .homepage .ytvideo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+main .homepage .ytvideo iframe {
+  width: 95vw;
+  max-width: var(--max-width);
+  height: 20rem;
+}
+
+main .homepage .box-container {
+  margin-top: 0.625rem;
+  display: grid;
+  justify-items: stretch;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  column-gap: 0.625rem;
+  row-gap: 0.625rem;
+}
+
+main .homepage .box-container .box-item {
+  border: 1px solid var(--clr-secondary-5);
+  border-radius: var(--radius);
+  padding: 1.25rem;
+}
+
+main .homepage .box-container .box-item h1 {
+}
+
+main .homepage .box-container .box-item p {
+  padding: 0 1.25rem;
+}
+
+@media screen and (min-width: 800px) {
+  .homepage {
+    padding: 20px;
+  }
+
+  main .homepage .ytvideo iframe {
+    height: 25rem;
+  }
+
+  main .homepage .box-container {
+  }
+
+  main .homepage .box-container .box-item {
+  }
+
+  main .homepage .box-container .box-item h1 {
+  }
+
+  main .homepage .box-container .box-item p {
+  }
+}
