@@ -48,7 +48,7 @@ main .homepage .box-container {
 }
 
 main .homepage .box-container .box-item {
-  padding: 1.625rem;
+  padding: 2.5rem 1.625rem;
   transition: all 0.2s ease-in-out;
   /* box-shadow: var(--box-shadow); */
   box-shadow: 0px 30px 40px -20px var(--clr-black);
@@ -63,9 +63,9 @@ main .homepage .box-container .box-item .box-item-footer {
 }
 
 main .homepage .box-container .box-item .box-item-footer .icon {
-  font-size: 4rem;
+  font-size: 5rem;
   color: var(--clr-secondary-1);
-  padding: 5gpx;
+  padding: 0 1.25rem;
 }
 
 main .homepage .box-container .box-item:hover,
