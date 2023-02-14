@@ -1,20 +1,16 @@
 @import '../../../variables.css';
-main {
-  margin-top: 6rem;
-  min-width: 100vw;
-}
 
 .homepage {
-  padding: 15px;
+  padding: var(--size-20) var(--size-20) var(--size-38) var(--size-20);
 }
 
 main .homepage h1 {
-  margin-bottom: 1.125rem;
+  margin-bottom: var(--size-18);
   text-align: center;
 }
 
 main .homepage .page-heading {
-  margin: 1.125rem 0 2.375rem 0;
+  margin: var(--size-18) 0 var(--size-38) 0;
   text-align: center;
 }
 
@@ -32,13 +28,13 @@ main .homepage .ytvideo {
 main .homepage .ytvideo iframe {
   width: 95vw;
   max-width: var(--max-width);
-  height: 20rem;
-  border: 2px solid var(--clr-secondary-5);
+  height: var(--size-320);
+  border: var(--size-2) solid var(--clr-secondary-5);
   border-radius: var(--radius);
 }
 
 main .homepage .box-container {
-  margin-top: 1.5rem;
+  margin-top: var(--size-24);
   display: grid;
   justify-items: stretch;
   justify-content: center;
@@ -48,11 +44,12 @@ main .homepage .box-container {
 }
 
 main .homepage .box-container .box-item {
-  padding: 2.5rem 1.625rem;
+  padding: var(--size-40) var(--size-26);
   transition: all 0.2s ease-in-out;
   /* box-shadow: var(--box-shadow); */
-  box-shadow: 0px 30px 40px -20px var(--clr-black);
+  box-shadow: 0px 5px 15px -10px var(--clr-black);
   position: relative;
+  border-radius: var(--size-10);
 }
 
 main .homepage .box-container .box-item .box-item-footer {
@@ -65,7 +62,7 @@ main .homepage .box-container .box-item .box-item-footer {
 main .homepage .box-container .box-item .box-item-footer .icon {
   font-size: 5rem;
   color: var(--clr-secondary-1);
-  padding: 0 1.25rem;
+  padding: 0 var(--size-18);
 }
 
 main .homepage .box-container .box-item:hover,
@@ -82,7 +79,13 @@ main .homepage .box-container .box-item p {
 }
 
 .line {
-  border-top: 2px solid var(--clr-secondary-5);
+  border-bottom: 2px solid var(--clr-secondary-5);
+  /* border-image: linear-gradient(
+      to right,
+      var(--clr-secondary-5) 50%,
+      transparent 50%
+    )
+    100% 1; */
 }
 
 /* Media queries */
@@ -96,10 +99,6 @@ main .homepage .box-container .box-item p {
 }
 
 @media screen and (min-width: 768px) {
-  main .homepage {
-    padding: 20px;
-  }
-
   main .homepage .ytvideo iframe {
     height: 25rem;
   }

@@ -1,0 +1,83 @@
+@import '../../../variables.css';
+
+.map button {
+  background: var(--clr-secondary-5);
+  border: 1px solid var(--clr-secondary-5);
+  width: 70%;
+  height: var(--size-70);
+  margin-top: var(--size-20);
+}
+
+.map button a {
+  color: var(--clr-primary-5);
+}
+
+.map button a:hover,
+.map button a:focus {
+  color: var(--clr-black);
+}
+
+.social-links {
+  justify-self: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: var(--size-60);
+}
+.social-links a {
+  font-size: var(--size-20);
+  margin: 0 0.5rem;
+  color: var(--clr-black);
+  transition: var(--transition);
+}
+.social-links a:hover,
+.social-links a:focus {
+  color: var(--clr-secondary-5);
+}
+
+.open {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: var(--size-38);
+}
+
+.open ul {
+  width: 30%;
+  background-color: var(--clr-secondary-9);
+  box-shadow: var(--box-shadow);
+  border-radius: var(--size-5);
+}
+
+.open li {
+  margin: var(--size-10) auto;
+  display: flex;
+  padding: 0 var(--size-20);
+}
+
+.open li p {
+  width: 50%;
+  border-bottom: 1px solid var(--clr-black);
+}
+
+.right {
+  text-align: right;
+}
+
+.left {
+  text-align: left;
+  border-right: 1px solid var(--clr-black);
+}
+
+/* Media queries */
+@media screen and (min-width: 350px) {
+}
+
+@media screen and (min-width: 600px) {
+}
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 1024px) {
+}

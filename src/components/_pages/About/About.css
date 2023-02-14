@@ -1,0 +1,114 @@
+@import '../../../variables.css';
+
+.container-about {
+  display: grid;
+  justify-items: stretch;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(1, 1fr);
+  row-gap: var(--gap-1);
+  padding: var(--size-38) 0;
+}
+.card {
+  margin: 10px auto;
+  background-color: #fff;
+  border-radius: var(--size-10);
+  box-shadow: 0 var(--size-2) var(--size-20) rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  width: var(--size-325);
+}
+
+.card:hover,
+.card:focus {
+  transform: scale(1.01);
+}
+
+.card-header img {
+  width: 100%;
+  height: var(--size-200);
+  object-fit: cover;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: var(--size-20);
+  min-height: var(--size-250);
+}
+
+.tag {
+  background: #cccccc;
+  border-radius: var(--size-50);
+  font-size: var(--size-12);
+  margin-bottom: var(--size-10);
+  color: #fff;
+  padding: var(--size-2) var(--size-10);
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.tag-secondary {
+  background-color: var(--clr-secondary-1);
+}
+
+.base-url a {
+  color: #000;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.base-url a:hover,
+.base-url a:focus {
+  color: var(--clr-secondary-5);
+}
+
+.card h4 {
+  margin-top: 10px;
+}
+
+.card-body p {
+  font-size: 1rem;
+  margin: 0 0 var(--size-40);
+}
+.btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.btn-container .btn {
+  background: var(--clr-secondary-5);
+  border: 1px solid var(--clr-secondary-5);
+  cursor: pointer;
+  transition: 0.2s ease-in-out 0s;
+}
+
+.btn-container .btn:hover,
+.btn-container .btn:focus {
+  filter: brightness(1.2);
+}
+
+.btn-container .btn a {
+  color: var(--clr-primary-5);
+  text-decoration: none;
+}
+
+/* Media queries */
+
+@media screen and (min-width: 600px) {
+}
+
+@media screen and (min-width: 768px) {
+  .container-about {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: var(--gap-1);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container-about {
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: var(--gap-1);
+  }
+}

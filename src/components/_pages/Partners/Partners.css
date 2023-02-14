@@ -1,0 +1,56 @@
+.partners {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--size-8) 0 var(--size-8) 0;
+}
+
+.partners-box {
+  width: 95%;
+  text-align: center;
+  /* padding: var(--size-30) 0; */
+}
+
+img {
+  --color: var(--clr-secondary-5); /* the border color */
+  --border: var(--size-5); /* the border thickness*/
+  --border-radius: var(--size-10);
+  --offset: var(--size-20); /* control the offset*/
+  --gap: var(--size-15); /* the gap on hover */
+
+  --_c: var(--color) var(--border), #0000 0 calc(100% - var(--border)),
+    var(--color) 0;
+  --_o: calc(3 * var(--offset));
+  padding: calc(var(--gap) + var(--border))
+    calc(var(--gap) + var(--border) + var(--offset))
+    calc(var(--gap) + var(--border) + var(--offset))
+    calc(var(--gap) + var(--border));
+  background: linear-gradient(var(--_c)) var(--_o) var(--_o),
+    linear-gradient(90deg, var(--_c)) var(--_o) var(--_o);
+  background-size: calc(0% - var(--_o)) calc(100% - var(--_o));
+  background-repeat: no-repeat;
+  filter: grayscale(0.4);
+  transition: 0.85s;
+  cursor: pointer;
+  width: 100%;
+}
+img:hover,
+img:focus {
+  background-position: 0px 0px;
+  background-size: calc(100% - var(--offset)) calc(100% - var(--offset));
+  filter: grayscale(0);
+}
+
+/* Media queries */
+@media screen and (min-width: 350px) {
+}
+
+@media screen and (min-width: 600px) {
+}
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 1024px) {
+}

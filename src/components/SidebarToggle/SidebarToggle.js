@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './SidebarToggle.css'
 
 import logo from '../../assets/images/logo/primmatgym1.png'
@@ -8,6 +8,7 @@ import { useGlobalContext } from '../../context/context'
 
 const SidebarToggle = () => {
   const { isSidebarOpen, closeSidebar } = useGlobalContext()
+
   return (
     <aside className={`sidebar ${isSidebarOpen ? 'show-sidebar' : null}`}>
       <div className='sidebar-header'>
