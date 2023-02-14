@@ -9,6 +9,7 @@
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 99;
 }
 .bars-logo img {
   width: 130px;

@@ -49,12 +49,12 @@ const Homepage = () => {
             </div>
             <div className='box-container'>
               {paragraphs2.map((paragraph2, index) => {
-                const { title, text } = paragraph2
+                const { title, text, icon } = paragraph2
                 return (
-                  <div key={index} className='box-item'>
-                    <h1>{title}</h1>
-                    <div className=''></div>
+                  <div key={index} className='box-item line'>
+                    <h2>{title}</h2>
                     <p>{text}</p>
+                    <div className='box-item-footer'>{icon}</div>
                   </div>
                 )
               })}

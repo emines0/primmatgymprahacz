@@ -46,4 +46,7 @@ Variables
   --gap-2: 2rem;
   --gap-3: 3rem;
   --box-shadow: 16px 19px 22px -14px rgba(34, 34, 2, 0.42);
+  --weight1: 200;
+  --weight2: 400;
+  --weight3: 600;
 }
