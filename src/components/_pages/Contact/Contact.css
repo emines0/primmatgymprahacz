@@ -1,63 +1,81 @@
 @import '../../../variables.css';
 
-.map button {
-  background: var(--clr-secondary-5);
+.contact .map .btn-container {
+  padding: var(--size-70) var(--size-20) var(--size-35) var(--size-20);
+}
+
+.contact .map .btn-container .btn {
+  background-color: var(--clr-secondary-7);
   border: 1px solid var(--clr-secondary-5);
   width: 70%;
   height: var(--size-70);
   margin-top: var(--size-20);
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
 }
 
-.map button a {
+.contact .map .btn-container .btn a {
   color: var(--clr-primary-5);
 }
 
-.map button a:hover,
-.map button a:focus {
-  color: var(--clr-black);
+.contact .social-links {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: var(--gap-2);
+  padding: var(--size-35) var(--size-20) var(--size-35) var(--size-20);
 }
 
-.social-links {
-  justify-self: center;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  padding: var(--size-60);
+.contact .social-links .link-box {
+  margin: 0 auto;
 }
-.social-links a {
-  font-size: var(--size-20);
-  margin: 0 0.5rem;
-  color: var(--clr-black);
+.contact .social-links .link-box a {
+  font-size: var(--size-50);
   transition: var(--transition);
 }
-.social-links a:hover,
-.social-links a:focus {
+
+.contact .social-links .link-box:nth-of-type(odd) > a {
   color: var(--clr-secondary-5);
 }
 
-.open {
+.contact .social-links .link-box:nth-of-type(even) > a {
+  color: var(--clr-black);
+}
+
+.contact .social-links .link-box:nth-of-type(odd) > a:hover,
+.contact .social-links .link-box:nth-of-type(odd) > a:focus {
+  color: var(--clr-black);
+}
+
+.contact .social-links .link-box:nth-of-type(even) > a:hover,
+.contact .social-links .link-box:nth-of-type(even) > a:focus {
+  color: var(--clr-secondary-5);
+}
+
+.contact .open {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-bottom: var(--size-38);
+  padding: var(--size-35) var(--size-20) var(--size-38) var(--size-20);
 }
 
-.open ul {
-  width: 30%;
+.contact .open ul {
+  width: 90%;
   background-color: var(--clr-secondary-9);
   box-shadow: var(--box-shadow);
   border-radius: var(--size-5);
 }
 
-.open li {
+.contact .open li {
   margin: var(--size-10) auto;
   display: flex;
   padding: 0 var(--size-20);
 }
 
-.open li p {
+.contact .open li p {
   width: 50%;
-  border-bottom: 1px solid var(--clr-black);
+  border-bottom: 1px solid var(--clr-secondary-5);
+  color: var(--clr-primary-5);
 }
 
 .right {
@@ -66,7 +84,7 @@
 
 .left {
   text-align: left;
-  border-right: 1px solid var(--clr-black);
+  border-right: 1px solid var(--clr-secondary-5);
 }
 
 /* Media queries */
@@ -74,10 +92,20 @@
 }
 
 @media screen and (min-width: 600px) {
+  .contact .social-links {
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: var(--gap-2);
+  }
+  .contact .open ul {
+    width: 65%;
+  }
 }
 
 @media screen and (min-width: 768px) {
 }
 
 @media screen and (min-width: 1024px) {
+  .contact .open ul {
+    width: 50%;
+  }
 }

@@ -42,6 +42,7 @@ Variables
   --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   --max-width: 1170px;
   --fixed-width: 620px;
+  --gap-0: 0.5rem;
   --gap-1: 1rem;
   --gap-2: 2rem;
   --gap-3: 3rem;
@@ -89,7 +90,7 @@ Variables
   --size-38: 2.375rem;
   --size-39: 2.438rem;
   --size-40: 2.5rem;
-
+  --size-45: 2.813rem;
   --size-48: 3rem;
   --size-50: 3.125rem;
   --size-60: 3.75rem;
@@ -99,7 +100,13 @@ Variables
   --size-130: 8.125rem;
   --size-200: 12.5rem;
   --size-250: 15.625rem;
+  --size-280: 17.5rem;
+  --size-300: 18.75rem;
+  --size-305: 19.063rem;
+
   --size-320: 20rem;
   --size-325: 20.313rem;
+  --size-330: 20.625rem;
+
   --size-400: 25rem;
 }

@@ -29,9 +29,11 @@ const Contact = () => {
           {socialLinks.map((link) => {
             const { id, url, icon } = link
             return (
-              <a key={id} href={url} target='_blank' rel='noreferrer'>
-                {icon}
-              </a>
+              <div key={id} className='link-box'>
+                <a href={url} target='_blank' rel='noreferrer'>
+                  {icon}
+                </a>
+              </div>
             )
           })}
         </div>
