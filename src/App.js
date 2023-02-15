@@ -10,7 +10,6 @@ function App() {
   return (
     <>
       <Navigation />
-      <PriceList />
       <Homepage />
       <Trainings />
       <About />
