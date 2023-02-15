@@ -67,6 +67,7 @@ main {
   max-width: var(--max-width);
   margin: 0 auto;
   background-color: var(--clr-primary-5);
+  padding: var(--size-38) var(--size-20);
 }
 
 .btn {
@@ -101,6 +102,28 @@ main {
 
 .remove {
   display: none;
+}
+
+.hide-link {
+  display: none;
+}
+
+.line {
+  border-bottom: 2px solid var(--clr-secondary-5);
+}
+
+.add-padding-top {
+  padding-top: var(--size-35);
+}
+.add-padding-bottom {
+  padding-bottom: var(--size-35);
+}
+
+.page-heading {
+  margin: 0 auto;
+  border-bottom: 1px solid var(--clr-secondary-5);
+  text-align: center;
+  width: 40%;
 }
 
 @media screen and (min-width: 800px) {

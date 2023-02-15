@@ -1,22 +1,23 @@
 .trainings {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   justify-content: center;
+  flex-direction: column;
   margin: 0 auto;
 }
 
 .trainings img {
   width: 95%;
   cursor: pointer;
-  margin-top: var(--size-26);
+  padding-top: var(--size-35);
 }
 
-.trainings img:hover,
+/* .trainings img:hover,
 .trainings img:focus {
   animation: borderImg 1.75s ease-in-out;
   border: var(--size-2) solid rgba(255, 105, 32, 1);
   border-radius: var(--size-3);
-}
+} */
 
 @keyframes borderImg {
   0% {

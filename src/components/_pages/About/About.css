@@ -1,5 +1,7 @@
 @import '../../../variables.css';
-
+.about {
+  padding: var(--size-38) 0;
+}
 .container-about {
   display: grid;
   justify-items: stretch;
@@ -7,8 +9,9 @@
   align-items: center;
   grid-template-columns: repeat(1, 1fr);
   row-gap: var(--gap-1);
-  padding: var(--size-38) 0;
+  padding-top: var(--size-35);
 }
+
 .card {
   margin: 10px auto;
   background-color: #fff;

@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import './SidebarToggle.css'
 
 import logo from '../../assets/images/logo/primmatgym1.png'

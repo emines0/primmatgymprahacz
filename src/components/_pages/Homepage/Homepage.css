@@ -1,19 +1,5 @@
 @import '../../../variables.css';
 
-.homepage {
-  padding: var(--size-20) var(--size-20) var(--size-38) var(--size-20);
-}
-
-main .homepage h1 {
-  margin-bottom: var(--size-18);
-  text-align: center;
-}
-
-main .homepage .page-heading {
-  margin: var(--size-18) 0 var(--size-38) 0;
-  text-align: center;
-}
-
 main .homepage p {
   text-align: justify;
 }
@@ -72,20 +58,6 @@ main .homepage .box-container .box-item:focus {
 
 main .homepage .box-container .box-item p {
   padding: 0 0.625rem;
-}
-
-.hide-link {
-  display: none;
-}
-
-.line {
-  border-bottom: 2px solid var(--clr-secondary-5);
-  /* border-image: linear-gradient(
-      to right,
-      var(--clr-secondary-5) 50%,
-      transparent 50%
-    )
-    100% 1; */
 }
 
 /* Media queries */

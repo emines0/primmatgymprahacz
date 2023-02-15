@@ -1,4 +1,3 @@
-import React, { useState } from 'react'
 import FsLightbox from 'fslightbox-react'
 import './Trainings.css'
 import timetable from '../../../assets/images/timetable/timetable.png'
@@ -10,6 +9,7 @@ const Trainings = () => {
     <main>
       <section className='container'>
         <div className='trainings'>
+          <h1 className='page-heading'>Tréninky</h1>
           <img
             src={timetable}
             alt='timetable'

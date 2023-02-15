@@ -14,7 +14,7 @@ const Homepage = () => {
               const { text } = paragraph1
               return (
                 <div key={index}>
-                  <p>
+                  <p className={`${index === 0 ? 'add-padding-top' : null}`}>
                     {text}
                     <span className={`${index === 0 ? 'hide-link' : null}`}>
                       <a href='/contact' className='text-link'>
