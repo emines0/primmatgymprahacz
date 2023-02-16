@@ -43,9 +43,8 @@ const SidebarToggle = () => {
         })}
       </ul>
       <p>
-        Created by{' '}
         <a href='https://github.com/emines0' target='_blank' rel='noreferrer'>
-          <FaGithubSquare />
+          <span>Created by</span> <FaGithubSquare />
         </a>
       </p>
     </aside>
