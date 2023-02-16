@@ -13,6 +13,11 @@ import { BsYoutube } from 'react-icons/bs'
 import { AiFillPhone } from 'react-icons/ai'
 import { MdEmail } from 'react-icons/md'
 import { GiPriceTag } from 'react-icons/gi'
+import Homepage from '../../components/_pages/Homepage/Homepage'
+import Trainings from '../../components/_pages/Trainings/Trainings'
+import About from '../../components/_pages/About/About'
+import Partners from '../../components/_pages/Partners/Partners'
+import Contact from '../../components/_pages/Contact/Contact'
 
 export const navLinks = [
   {
@@ -20,30 +25,35 @@ export const navLinks = [
     url: '/',
     text: 'PriMMAt Gym',
     icon: <FaHome />,
+    element: <Homepage />,
   },
   {
     id: 2,
     url: '/trainings',
     text: 'Tréninky',
     icon: <FaCalendarAlt />,
+    element: <Trainings />,
   },
   {
     id: 3,
-    url: '/price-list',
-    text: 'Ceník',
-    icon: <GiPriceTag />,
-  },
-  {
-    id: 4,
     url: '/about',
     text: 'Napsali o nás',
     icon: <FaWpforms />,
+    element: <About />,
+  },
+  {
+    id: 4,
+    url: '/partners',
+    text: 'Partneři',
+    icon: <GiPriceTag />,
+    element: <Partners />,
   },
   {
     id: 5,
     url: '/contact',
     text: 'Kontakt',
     icon: <FaUserFriends />,
+    element: <Contact />,
   },
 ]
 

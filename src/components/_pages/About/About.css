@@ -16,7 +16,7 @@
   margin: 10px auto;
   background-color: #fff;
   border-radius: var(--size-10);
-  box-shadow: 0 var(--size-2) var(--size-20) rgba(0, 0, 0, 0.2);
+  box-shadow: var(--box-shadow);
   overflow: hidden;
   width: var(--size-280);
 }

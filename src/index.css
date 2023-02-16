@@ -121,12 +121,33 @@ main {
 
 .page-heading {
   margin: 0 auto;
-  border-bottom: 1px solid var(--clr-secondary-5);
+  border-bottom: 0;
   text-align: center;
-  width: 40%;
+  width: 100%;
+  font-size: var(--size-30);
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 350px) {
+  .page-heading {
+    font-size: var(--size-32);
+  }
+}
+
+@media screen and (min-width: 450px) {
+  .page-heading {
+    width: 77%;
+    border-bottom: 1px solid var(--clr-secondary-5);
+    font-size: var(--size-34);
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .page-heading {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 768px) {
   h1 {
     font-size: var(--size-48);
   }
@@ -148,4 +169,17 @@ main {
   h4 {
     line-height: 1;
   } */
+  .partners-box {
+    width: 50%;
+  }
+
+  .page-heading {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .page-heading {
+    width: 36%;
+  }
 }

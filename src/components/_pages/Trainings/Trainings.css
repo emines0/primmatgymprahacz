@@ -1,3 +1,9 @@
+.trainings-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
 .timetable {
   display: flex;
   flex-direction: column;
@@ -35,20 +41,12 @@
   }
 } */
 
-.price-list {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  flex-direction: column;
-}
-
 .price-list-container {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   padding-top: var(--size-35);
   margin: 0 auto;
-  width: 80%;
+  width: 100%;
 }
 
 .columns {
@@ -78,6 +76,7 @@
 
 .columns ul {
   border-radius: var(--size-10);
+  box-shadow: var(--box-shadow);
 }
 
 .price li {
@@ -100,16 +99,23 @@
 
 /* Media queries */
 
+@media screen and (min-width: 400px) {
+  .price-list-container {
+    width: 80%;
+  }
+}
+
 @media screen and (min-width: 600px) {
   .timetable {
     align-items: center;
-    height: 90vh;
   }
 
   .timetable img {
     margin-top: 0;
   }
-
+  .price-list-container {
+    width: 55%;
+  }
   .columns {
     width: 100%;
   }
@@ -121,7 +127,15 @@
     column-gap: var(--gap-1);
     row-gap: var(--gap-1);
   }
+  .price-list-container {
+    width: 85%;
+  }
 }
 
 @media screen and (min-width: 1024px) {
+  .price-list-container {
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: var(--gap-1);
+    row-gap: var(--gap-1);
+  }
 }

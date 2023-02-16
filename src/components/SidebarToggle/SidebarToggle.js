@@ -2,7 +2,7 @@ import React from 'react'
 import './SidebarToggle.css'
 
 import logo from '../../assets/images/logo/primmatgym1.png'
-import { FaTimes } from 'react-icons/fa'
+import { FaTimes, FaGithubSquare } from 'react-icons/fa'
 import { socialLinks, navLinks } from '../../assets/data/navigation'
 import { useGlobalContext } from '../../context/context'
 
@@ -42,6 +42,12 @@ const SidebarToggle = () => {
           )
         })}
       </ul>
+      <p>
+        Created by{' '}
+        <a href='https://github.com/emines0' target='_blank' rel='noreferrer'>
+          <FaGithubSquare />
+        </a>
+      </p>
     </aside>
   )
 }

@@ -1,21 +1,19 @@
 import Navigation from './components/Navigation/Navigation'
-import Homepage from './components/_pages/Homepage/Homepage'
-import Trainings from './components/_pages/Trainings/Trainings'
-import About from './components/_pages/About/About'
-import Partners from './components/_pages/Partners/Partners'
-import Contact from './components/_pages/Contact/Contact'
-import PriceList from './components/_pages/PriceList/PriceList'
+import { navLinks } from './assets/data/navigation'
+
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 function App() {
   return (
-    <>
+    <BrowserRouter>
       <Navigation />
-      <Homepage />
-      <Trainings />
-      <About />
-      <Partners />
-      <Contact />
-    </>
+      <Routes>
+        {navLinks.map((link) => {
+          const { id, url, element } = link
+          return <Route key={id} path={url} element={element} />
+        })}
+      </Routes>
+    </BrowserRouter>
   )
 }
 
