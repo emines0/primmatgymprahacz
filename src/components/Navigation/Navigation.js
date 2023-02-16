@@ -5,6 +5,7 @@ import SidebarToggle from '../SidebarToggle/SidebarToggle'
 import { FaBars } from 'react-icons/fa'
 import { useGlobalContext } from '../../context/context'
 import logo from '../../assets/images/logo/primmatgym1.png'
+import { Link } from 'react-router-dom'
 
 const Navigation = () => {
   const { openSidebar, isSidebarOpen } = useGlobalContext()
@@ -15,7 +16,9 @@ const Navigation = () => {
         <div
           className={`bars-logo ${isSidebarOpen ? 'hide-bars' : 'show-bars'}`}
         >
-          <img src={logo} alt='logo' />
+          <Link to='/'>
+            <img src={logo} alt='logo' />
+          </Link>
         </div>
         <button
           className={`sidebar-toggle ${

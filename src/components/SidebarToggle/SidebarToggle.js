@@ -5,6 +5,7 @@ import logo from '../../assets/images/logo/primmatgym1.png'
 import { FaTimes, FaGithubSquare } from 'react-icons/fa'
 import { socialLinks, navLinks } from '../../assets/data/navigation'
 import { useGlobalContext } from '../../context/context'
+import { Link } from 'react-router-dom'
 
 const SidebarToggle = () => {
   const { isSidebarOpen, closeSidebar } = useGlobalContext()
@@ -22,10 +23,10 @@ const SidebarToggle = () => {
           const { id, url, text, icon } = link
           return (
             <li key={id}>
-              <a href={url}>
+              <Link to={url}>
                 {icon}
                 {text}
-              </a>
+              </Link>
             </li>
           )
         })}
