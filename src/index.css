@@ -68,6 +68,7 @@ main {
   margin: 0 auto;
   background-color: var(--clr-primary-5);
   padding: var(--size-38) var(--size-20);
+  overflow-anchor: none;
 }
 
 .btn {
