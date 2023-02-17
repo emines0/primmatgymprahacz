@@ -39,6 +39,7 @@ const Contact = () => {
           })}
         </div>
         <div className='open'>
+          <h2>Otevírací hodiny</h2>
           <ul>
             {openHours.map((singleDay) => {
               const { id, day, from, to } = singleDay
@@ -52,6 +53,9 @@ const Contact = () => {
               )
             })}
           </ul>
+        </div>
+        <div className='parking'>
+          <p>Pro návštěvníky parkoviště v areálu zdarma.</p>
         </div>
       </section>
     </main>
