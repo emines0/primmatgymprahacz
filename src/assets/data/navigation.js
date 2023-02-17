@@ -12,7 +12,6 @@ import { BsYoutube } from 'react-icons/bs'
 
 import { AiFillPhone, AiOutlineDisconnect } from 'react-icons/ai'
 import { MdEmail } from 'react-icons/md'
-import { GiPriceTag } from 'react-icons/gi'
 import Homepage from '../../components/_pages/Homepage/Homepage'
 import Trainings from '../../components/_pages/Trainings/Trainings'
 import About from '../../components/_pages/About/About'

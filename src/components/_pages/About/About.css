@@ -67,6 +67,7 @@
 
 .card h4 {
   margin-top: 10px;
+  text-transform: none;
 }
 
 .card-body p {
