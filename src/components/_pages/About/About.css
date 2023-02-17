@@ -2,6 +2,11 @@
 .about {
   padding: var(--size-38) 0;
 }
+
+.about h1 {
+  text-transform: none;
+}
+
 .container-about {
   display: grid;
   justify-items: stretch;

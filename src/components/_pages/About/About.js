@@ -6,7 +6,7 @@ const About = () => {
   return (
     <main>
       <section className='container about'>
-        <h1 className='page-heading'>Napsali O Nás</h1>
+        <h1 className='page-heading'>Napsali o nás</h1>
         <div className='container-about'>
           {about
             .sort((a, b) => b.id - a.id)
