@@ -23,7 +23,7 @@ const SidebarToggle = () => {
           const { id, url, text, icon } = link
           return (
             <li key={id}>
-              <Link to={url}>
+              <Link to={url} onClick={closeSidebar}>
                 {icon}
                 {text}
               </Link>
@@ -36,7 +36,12 @@ const SidebarToggle = () => {
           const { id, url, icon } = item
           return (
             <li key={id}>
-              <a href={url} target='_blank' rel='noreferrer'>
+              <a
+                href={url}
+                target='_blank'
+                rel='noreferrer'
+                onClick={closeSidebar}
+              >
                 {icon}
               </a>
             </li>
