@@ -63,6 +63,11 @@
   padding: var(--size-35) var(--size-20) var(--size-35) var(--size-20);
 }
 
+.contact .open h2 {
+  margin: 0;
+  padding-bottom: var(--size-35);
+}
+
 .contact .open ul {
   width: 90%;
   background-color: var(--clr-secondary-9);
