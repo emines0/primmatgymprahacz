@@ -10,7 +10,7 @@ import {
 
 import { BsYoutube } from 'react-icons/bs'
 
-import { AiFillPhone } from 'react-icons/ai'
+import { AiFillPhone, AiOutlineDisconnect } from 'react-icons/ai'
 import { MdEmail } from 'react-icons/md'
 import { GiPriceTag } from 'react-icons/gi'
 import Homepage from '../../components/_pages/Homepage/Homepage'
@@ -45,7 +45,7 @@ export const navLinks = [
     id: 4,
     url: '/partners',
     text: 'Partneři',
-    icon: <GiPriceTag />,
+    icon: <AiOutlineDisconnect />,
     element: <Partners />,
   },
   {
@@ -78,7 +78,7 @@ export const socialLinks = [
   },
   {
     id: 4,
-    url: 'mailto:evgenia@dpromolab.cz?Subject=Hello PriMMAt Gym',
+    url: 'mailto:evgenia@promolab.cz?Subject=Hello PriMMAt Gym',
     type: 'email',
     icon: <MdEmail />,
   },
