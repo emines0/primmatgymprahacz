@@ -15,7 +15,11 @@ function App() {
       <Routes>
         {navLinks.map((link) => {
           const { id, url, element } = link
-          return <Route key={id} path={url} element={element} />
+          if (id === 1) {
+            return <Route key={id} exact path={url} element={element} />
+          } else {
+            return <Route key={id} path={url} element={element} />
+          }
         })}
       </Routes>
       <GoToTop />
