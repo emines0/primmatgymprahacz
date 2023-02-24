@@ -8,7 +8,7 @@ const Trainings = () => {
   const { toggler, setToggler } = useGlobalContext()
   return (
     <main>
-      <section className='container'>
+      <section className='container trainings'>
         <div className='trainings-container'>
           <div className='timetable'>
             <h1 className='page-heading'>Tréninky</h1>

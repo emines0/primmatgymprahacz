@@ -1,3 +1,6 @@
+.trainings {
+  height: 100vh;
+}
 .trainings-container {
   display: flex;
   flex-direction: column;
