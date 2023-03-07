@@ -100,6 +100,11 @@
 }
 
 /* Media queries */
+@media screen and (min-height: 1220px) {
+  .trainings {
+    height: 100vh;
+  }
+}
 
 @media screen and (min-width: 400px) {
   .price-list-container {
