@@ -30,7 +30,7 @@ const home = [
       },
       {
         title: 'bjj',
-        text: 'tréninky Brazilského Jiu Jitsu no-gi pod vedením Eldara ‘’Yakuzy’’ Rafigaeva. BJJ je především o technikách páčení, uchopení a škrcení. Souboj se ve většině případů odehrává na zemi, kde se síly zápasníků ještě více vyrovnávají.',
+        text: 'je především o technikách páčení, uchopení a škrcení. Souboj se ve většině případů odehrává na zemi, kde se síly zápasníků ještě více vyrovnávají.',
         icon: <GiBlackBelt className='icon' />,
       },
       {
