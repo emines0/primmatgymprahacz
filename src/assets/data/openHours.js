@@ -3,42 +3,42 @@ const openHours = [
     id: 1,
     day: 'Pondelí',
     from: '7:00',
-    to: '21:30',
+    to: '20:30',
     type: 'monday',
   },
   {
     id: 2,
     day: 'Uterý',
     from: '7:00',
-    to: '21:30',
+    to: '20:30',
     type: 'tuesday',
   },
   {
     id: 3,
     day: 'Středa',
     from: '7:00',
-    to: '21:30',
+    to: '20:30',
     type: 'wednesday',
   },
   {
     id: 4,
     day: 'Čtvrtek',
     from: '7:00',
-    to: '21:30',
+    to: '20:30',
     type: 'thursday',
   },
   {
     id: 5,
     day: 'Pátek',
     from: '7:00',
-    to: '21:30',
+    to: '20:30',
     type: 'friday',
   },
   {
     id: 6,
     day: 'Sobota',
-    from: '10:00',
-    to: '16:00',
+    from: 'Zavřeno',
+    to: '',
     type: 'saturday',
   },
   {
@@ -48,5 +48,5 @@ const openHours = [
     to: '',
     type: 'sunday',
   },
-]
-export default openHours
+];
+export default openHours;

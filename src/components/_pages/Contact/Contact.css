@@ -65,10 +65,14 @@
 
 .contact .open h2 {
   margin: 0;
-  padding-bottom: var(--size-35);
+}
+
+.contact .open h4 {
+  margin-top: var(--size-35);
 }
 
 .contact .open ul {
+  margin-top: var(--size-35);
   width: 90%;
   background-color: var(--clr-secondary-9);
   box-shadow: var(--box-shadow);

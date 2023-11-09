@@ -6,17 +6,17 @@ import {
   FaUserFriends,
   FaWpforms,
   FaSearchLocation,
-} from 'react-icons/fa'
+} from 'react-icons/fa';
 
-import { BsYoutube } from 'react-icons/bs'
+import { BsYoutube } from 'react-icons/bs';
 
-import { AiFillPhone, AiOutlineDisconnect } from 'react-icons/ai'
-import { MdEmail } from 'react-icons/md'
-import Homepage from '../../components/_pages/Homepage/Homepage'
-import Trainings from '../../components/_pages/Trainings/Trainings'
-import About from '../../components/_pages/About/About'
-import Partners from '../../components/_pages/Partners/Partners'
-import Contact from '../../components/_pages/Contact/Contact'
+import { AiFillPhone, AiOutlineDisconnect } from 'react-icons/ai';
+import { MdEmail } from 'react-icons/md';
+import Homepage from '../../components/_pages/Homepage/Homepage';
+import Trainings from '../../components/_pages/Trainings/Trainings';
+import About from '../../components/_pages/About/About';
+import Partners from '../../components/_pages/Partners/Partners';
+import Contact from '../../components/_pages/Contact/Contact';
 
 export const navLinks = [
   {
@@ -54,7 +54,7 @@ export const navLinks = [
     icon: <FaUserFriends />,
     element: <Contact />,
   },
-]
+];
 
 export const socialLinks = [
   {
@@ -83,7 +83,7 @@ export const socialLinks = [
   },
   {
     id: 5,
-    url: 'tel:+420725572706',
+    url: 'tel:+420776199358',
     type: 'phone',
     icon: <AiFillPhone />,
   },
@@ -93,4 +93,4 @@ export const socialLinks = [
     type: 'location',
     icon: <FaSearchLocation />,
   },
-]
+];
