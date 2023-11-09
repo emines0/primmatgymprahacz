@@ -7,7 +7,7 @@ const priceList = [
   {
     id: 2,
     name: 'detský vstup',
-    price: 30,
+    price: 100,
   },
   {
     id: 3,
@@ -29,5 +29,5 @@ const priceList = [
     name: 'měsíčni na vše',
     price: 2250,
   },
-]
-export default priceList
+];
+export default priceList;
